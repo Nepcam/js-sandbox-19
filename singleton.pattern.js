@@ -19,6 +19,6 @@ const Singleton = (function() {
 const instanceA = Singleton.getInstance();
 const instanceB = Singleton.getInstance();
 
-console.log(instanceA === instanceB);
+// console.log(instanceA === instanceB);
 
 // console.log(instanceA)
