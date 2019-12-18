@@ -5,3 +5,4 @@ Topics Covered
 - Module & Revealling Module Pattern
 - Singleton Pattern
 - Factory Pattern
+- Observer Pattern
