@@ -5,7 +5,7 @@ class EventObserver {
 
   subscribe(fn) {
     this.observers.push(fn);
-    console.log(`You are now subscribed to ${fn.name}`);
+    // console.log(`You are now subscribed to ${fn.name}`);
   }
 
   unsubscribe(fn) {
@@ -15,7 +15,7 @@ class EventObserver {
         return item;
       }
     });
-    console.log(`You are now unsubscribed from ${fn.name}`);
+    // console.log(`You are now unsubscribed from ${fn.name}`);
   }
 
   fire() {
@@ -51,9 +51,9 @@ document.querySelector('.fire').addEventListener('click', function() {
 
 // Click Handler
 const getCurMilliseconds = function() {
-  console.log(`Current Milliseconds: ${new Date().getMilliseconds()}`);
+  // console.log(`Current Milliseconds: ${new Date().getMilliseconds()}`);
 }
 
 const getCurSeconds = function() {
-  console.log(`Current Seconds: ${new Date().getSeconds()}`);
+  // console.log(`Current Seconds: ${new Date().getSeconds()}`);
 }
